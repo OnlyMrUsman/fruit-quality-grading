@@ -1,0 +1,7 @@
+data/
+data_tmp/
+outputs/checkpoints/*.pth
+demo/*.mp4
+.venv/
+__pycache__/
+.ipynb_checkpoints/
