@@ -1,0 +1,42 @@
+{
+  "test_accuracy": 0.9981278416688955,
+  "macro_auc": 0.9998538819820573,
+  "micro_auc": 0.9998994912132735,
+  "macro_f1": 0.9977,
+  "weighted_f1": 0.9981,
+  "per_class_auc": {
+    "freshapples": 1.0,
+    "freshbanana": 1.0,
+    "freshoranges": 1.0,
+    "rottenapples": 1.0,
+    "rottenbanana": 1.0,
+    "rottenoranges": 1.0,
+    "unripe apple": 0.9989444014059708,
+    "unripe banana": 0.9998120694818808,
+    "unripe orange": 0.9999284669506636
+  },
+  "n_test": 3739,
+  "n_misclassified": 7,
+  "top_confusions": [
+    {
+      "count": 3,
+      "true": "unripe apple",
+      "pred": "unripe orange"
+    },
+    {
+      "count": 2,
+      "true": "unripe orange",
+      "pred": "freshoranges"
+    },
+    {
+      "count": 1,
+      "true": "unripe banana",
+      "pred": "unripe apple"
+    },
+    {
+      "count": 1,
+      "true": "unripe apple",
+      "pred": "unripe banana"
+    }
+  ]
+}
